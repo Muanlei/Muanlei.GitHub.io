@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Muanlei.GitHub.io</id>
-    <title>最肯忘却古人诗-最不屑一顾是相思</title>
-    <updated>2021-01-06T05:18:12.960Z</updated>
+    <title>最肯忘却古人诗/最不屑一顾是相思</title>
+    <updated>2021-01-06T05:20:49.851Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Muanlei.GitHub.io"/>
     <link rel="self" href="https://Muanlei.GitHub.io/atom.xml"/>
     <subtitle>&quot;鬼蜷缩在屋檐想再看一眼人间&quot;</subtitle>
     <logo>https://Muanlei.GitHub.io/images/avatar.png</logo>
     <icon>https://Muanlei.GitHub.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 最肯忘却古人诗-最不屑一顾是相思</rights>
+    <rights>All rights reserved 2021, 最肯忘却古人诗/最不屑一顾是相思</rights>
     <entry>
         <title type="html"><![CDATA[c++ 从入门到起飞]]></title>
         <id>https://Muanlei.GitHub.io/post/c-cong-ru-men-dao-qi-fei/</id>
