@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Muanlei.GitHub.io</id>
     <title>最肯忘却古人诗/最不屑一顾是相思</title>
-    <updated>2021-01-06T16:05:35.048Z</updated>
+    <updated>2021-01-07T10:02:02.553Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Muanlei.GitHub.io"/>
     <link rel="self" href="https://Muanlei.GitHub.io/atom.xml"/>
@@ -11,12 +11,13 @@
     <icon>https://Muanlei.GitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 最肯忘却古人诗/最不屑一顾是相思</rights>
     <entry>
-        <title type="html"><![CDATA[c++ 从入门到起飞]]></title>
-        <id>https://Muanlei.GitHub.io/post/c-cong-ru-men-dao-qi-fei/</id>
-        <link href="https://Muanlei.GitHub.io/post/c-cong-ru-men-dao-qi-fei/">
+        <title type="html"><![CDATA[C++从入门到起飞]]></title>
+        <id>https://Muanlei.GitHub.io/post/ccong-ru-men-dao-qi-fei/</id>
+        <link href="https://Muanlei.GitHub.io/post/ccong-ru-men-dao-qi-fei/">
         </link>
-        <updated>2021-01-05T10:41:41.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="工程文件说明">工程文件说明</h2>
+        <updated>2021-01-07T09:51:12.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<h2 id="工程文件说明">工程文件说明</h2>
 <p>注意：编译生成的 .exe 文件在工程目录下的Debug文件夹内。例如：路径为 E:\cDemo，打开看到有一个Debug文件夹，进入可以看到 cDemo.exe。</p>
 <p>在Debug目录中还会看到一个名为 hello.obj 的文件。<code>.obj</code>是VC/VS生成的目标文件，类似于C-Free下的<code>.o</code>文件。</p>
 <p>进入工程目录 E:\cDemo，除了 hello.c，还会看到很多其他文件，它们是VC6.0创建的，用来支持当前<br>
