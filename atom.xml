@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Muanlei.GitHub.io</id>
     <title>最肯忘却古人诗/最不屑一顾是相思</title>
-    <updated>2021-01-07T12:57:17.768Z</updated>
+    <updated>2021-01-07T12:59:28.890Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Muanlei.GitHub.io"/>
     <link rel="self" href="https://Muanlei.GitHub.io/atom.xml"/>
@@ -17,6 +17,44 @@
         </link>
         <updated>2021-01-07T09:51:12.000Z</updated>
         <content type="html"><![CDATA[<p>#####所有资料都是黑马程序员网站的讲课资料</p>
+<h1 id="c课程安排">C++课程安排</h1>
+<ul>
+<li>明确C++课程学习阶段以及课程内容</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>内容</th>
+<th>目标</th>
+<th>案例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第一阶段</td>
+<td>C++基础语法入门</td>
+<td>对C++有初步了解，能够有基础编程能力</td>
+<td>通讯录管理系统</td>
+</tr>
+<tr>
+<td>第二阶段</td>
+<td>C++核心编程</td>
+<td>介绍C++面向对象编程，为大型项目做铺垫</td>
+<td>职工管理系统</td>
+</tr>
+<tr>
+<td>第三阶段</td>
+<td>C++提高编程</td>
+<td>介绍C++泛型编程思想，以及STL的基本使用</td>
+<td>演讲比赛系统</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>综合大案例：机房预约系统</li>
+</ul>
+<p>——————————————————————————————————————</p>
 <h1 id="工程文件说明">工程文件说明</h1>
 <p>注意：编译生成的 .exe 文件在工程目录下的Debug文件夹内。例如：路径为 E:\cDemo，打开看到有一个Debug文件夹，进入可以看到 cDemo.exe。</p>
 <p>在Debug目录中还会看到一个名为 hello.obj 的文件。<code>.obj</code>是VC/VS生成的目标文件，类似于C-Free下的<code>.o</code>文件。</p>
@@ -40,7 +78,7 @@
 <p>一个工程可以包含多个源文件和资源文件（图片、视频等），但只能生成一个二进制文件，例如可执行程序<code>.exe</code>、动态链接库<code>.dll</code>、静态链接库<code>.lib</code>等。工程类型决定了不同的配置信息，也决定了生成不同的二进制文件。</p>
 <p>一个工作区可以包含多个工程，能够批量生成多个二进制文件。</p>
 <p>安装的较大的程序，安装目录中一般包含多个 EXE 和 DLL。对于这样的程序，可以先创建一个工作区，再创建多个工程，这样就能一次性生成所需的多个二进制文件。</p>
-<h1 id="c基础入门">C++基础入门</h1>
+<h1 id="c基础语法入门">C++基础语法入门</h1>
 <h2 id="1-c初识">1 C++初识</h2>
 <h3 id="11-第一个c程序">1.1  第一个C++程序</h3>
 <p>编写一个C++程序总共分为4个步骤</p>

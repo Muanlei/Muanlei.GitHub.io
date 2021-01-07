@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>最肯忘却古人诗/最不屑一顾是相思</title>
 <meta name="description" content=""鬼蜷缩在屋檐想再看一眼人间"" />
-<link rel="shortcut icon" href="https://Muanlei.GitHub.io/favicon.ico?v=1610023904325">
+<link rel="shortcut icon" href="https://Muanlei.GitHub.io/favicon.ico?v=1610024364141">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
@@ -23,7 +23,7 @@
       <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
         <i class="ri-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
         <a href="https://Muanlei.GitHub.io">
-          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://Muanlei.GitHub.io/images/avatar.png?v=1610023904325" alt="">
+          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://Muanlei.GitHub.io/images/avatar.png?v=1610024364141" alt="">
         </a>
         <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">最肯忘却古人诗/最不屑一顾是相思</h1>
       </div>
@@ -34,8 +34,9 @@
           </p>
           <div class="toc-container hidden lg:block">
             <ul class="markdownIt-TOC">
+<li><a href="#c%E8%AF%BE%E7%A8%8B%E5%AE%89%E6%8E%92">C++课程安排</a></li>
 <li><a href="#%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E">工程文件说明</a></li>
-<li><a href="#c%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8">C++基础入门</a>
+<li><a href="#c%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8">C++基础语法入门</a>
 <ul>
 <li><a href="#1-c%E5%88%9D%E8%AF%86">1 C++初识</a>
 <ul>
@@ -204,11 +205,49 @@
       <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
         <h1 class="text-3xl font-bold lg:mt-16">C++从入门到起飞 </h1>
         <div class="text-sm text-gray-700 lg:my-8">
-          2021-01-07 / 61 min read
+          2021-01-07 / 62 min read
         </div>
         
         <div class="post-content yue">
           <p>#####所有资料都是黑马程序员网站的讲课资料</p>
+<h1 id="c课程安排">C++课程安排</h1>
+<ul>
+<li>明确C++课程学习阶段以及课程内容</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>内容</th>
+<th>目标</th>
+<th>案例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第一阶段</td>
+<td>C++基础语法入门</td>
+<td>对C++有初步了解，能够有基础编程能力</td>
+<td>通讯录管理系统</td>
+</tr>
+<tr>
+<td>第二阶段</td>
+<td>C++核心编程</td>
+<td>介绍C++面向对象编程，为大型项目做铺垫</td>
+<td>职工管理系统</td>
+</tr>
+<tr>
+<td>第三阶段</td>
+<td>C++提高编程</td>
+<td>介绍C++泛型编程思想，以及STL的基本使用</td>
+<td>演讲比赛系统</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>综合大案例：机房预约系统</li>
+</ul>
+<p>——————————————————————————————————————</p>
 <h1 id="工程文件说明">工程文件说明</h1>
 <p>注意：编译生成的 .exe 文件在工程目录下的Debug文件夹内。例如：路径为 E:\cDemo，打开看到有一个Debug文件夹，进入可以看到 cDemo.exe。</p>
 <p>在Debug目录中还会看到一个名为 hello.obj 的文件。<code>.obj</code>是VC/VS生成的目标文件，类似于C-Free下的<code>.o</code>文件。</p>
@@ -232,7 +271,7 @@
 <p>一个工程可以包含多个源文件和资源文件（图片、视频等），但只能生成一个二进制文件，例如可执行程序<code>.exe</code>、动态链接库<code>.dll</code>、静态链接库<code>.lib</code>等。工程类型决定了不同的配置信息，也决定了生成不同的二进制文件。</p>
 <p>一个工作区可以包含多个工程，能够批量生成多个二进制文件。</p>
 <p>安装的较大的程序，安装目录中一般包含多个 EXE 和 DLL。对于这样的程序，可以先创建一个工作区，再创建多个工程，这样就能一次性生成所需的多个二进制文件。</p>
-<h1 id="c基础入门">C++基础入门</h1>
+<h1 id="c基础语法入门">C++基础语法入门</h1>
 <h2 id="1-c初识">1 C++初识</h2>
 <h3 id="11-第一个c程序">1.1  第一个C++程序</h3>
 <p>编写一个C++程序总共分为4个步骤</p>
