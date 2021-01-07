@@ -30,17 +30,30 @@
       
         <div class="animated fadeInLeft" style="animation-delay: 0.4s">
           <p class="my-4 text-gray-600 font-light hidden lg:block">
-            文章目录
+            "鬼蜷缩在屋檐想再看一眼人间"
           </p>
-          <div class="toc-container hidden lg:block">
-            <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E">工程文件说明</a></li>
-</ul>
-</li>
-</ul>
-
+          <div class="animated fadeInLeft social-container hidden lg:block" style="animation-delay: 0.6s">
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
           </div>
         </div>
       
@@ -78,55 +91,28 @@
 </div>
 <div class="mask" onclick="closeMenu()">
 </div>
-      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
-        <h1 class="text-3xl font-bold lg:mt-16">C++从入门到起飞</h1>
-        <div class="text-sm text-gray-700 lg:my-8">
-          2021-01-07 / 2 min read
-        </div>
+      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4">
+        <h2 class="text-lg text-gray-700 mb-8">
+          <i class="ri-bookmark-line"></i> 起飞
+        </h2>
         
-        <div class="post-content yue">
-          <!-- more -->
-<h2 id="工程文件说明">工程文件说明</h2>
-<p>注意：编译生成的 .exe 文件在工程目录下的Debug文件夹内。例如：路径为 E:\cDemo，打开看到有一个Debug文件夹，进入可以看到 cDemo.exe。</p>
-<p>在Debug目录中还会看到一个名为 hello.obj 的文件。<code>.obj</code>是VC/VS生成的目标文件，类似于C-Free下的<code>.o</code>文件。</p>
-<p>进入工程目录 E:\cDemo，除了 hello.c，还会看到很多其他文件，它们是VC6.0创建的，用来支持当前<br>
-#工程文件说明<br>
-工程，不属于C语言的范围，你可以忽略它们。</p>
-<p>如果读者感兴趣，我提供稍微简单点的说明：</p>
-<ol>
-<li>
-<p>.dsp文件：DeveloperStudio Project，工程文件（文本格式），用来保存当前工程的信息，例如编译参数、包含的源文件等，不建议手动编辑。当需要打开一个工程时，打开该文件即可。</p>
-</li>
-<li>
-<p>.dsw文件：DeveloperStudio Workspace，工作区文件，和DSP类似。</p>
-</li>
-<li>
-<p>.opt文件：IDE的Option文件，保存了与当前工程有关的开发环境的配置，例如工具条位置、打开的文件、光标位置等。</p>
-</li>
-<li>
-<p>.plg文件：日志文件（HTML文件），保存了程序的编译信息，例如错误和警告等。</p>
-</li>
-</ol>
-<p>一个工程可以包含多个源文件和资源文件（图片、视频等），但只能生成一个二进制文件，例如可执行程序<code>.exe</code>、动态链接库<code>.dll</code>、静态链接库<code>.lib</code>等。工程类型决定了不同的配置信息，也决定了生成不同的二进制文件。</p>
-<p>一个工作区可以包含多个工程，能够批量生成多个二进制文件。</p>
-<p>安装的较大的程序，安装目录中一般包含多个 EXE 和 DLL。对于这样的程序，可以先创建一个工作区，再创建多个工程，这样就能一次性生成所需的多个二进制文件。</p>
-
-        </div>
-
+  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${0 * 0.2}s` }">
+    
+    <div class="content">
+      <a href="https://Muanlei.GitHub.io/post/ccong-ru-men-dao-qi-fei/">
+        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">C++从入门到起飞</h2>
+      </a>
+      <div class="post-abstract text-gray-700 font-light my-4">
         
-          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="https://Muanlei.GitHub.io/tag/m1ovUUmNv/">
-            <span class="flex-auto">起飞</span>
-          </a>
-        
+      </div>
+      <div class="text-gray-400 text-sm font-light">2021-01-07 / 2 min read</div>
+    </div>
+  </section>
 
-
-        <div class="flex justify-between py-8">
-          
-
-          
-        </div>
-
-        
+        <div class="pagination-container animated fadeIn">
+  
+  
+</div>
 
       </div>
     </div>
