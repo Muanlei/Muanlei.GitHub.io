@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Muanlei.GitHub.io</id>
     <title>最肯忘却古人诗/最不屑一顾是相思</title>
-    <updated>2021-01-10T06:12:11.048Z</updated>
+    <updated>2021-01-10T06:13:10.072Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Muanlei.GitHub.io"/>
     <link rel="self" href="https://Muanlei.GitHub.io/atom.xml"/>
@@ -8515,6 +8515,15 @@ void cleanPerson(Addressbooks * abs)
 <figure data-type="image" tabindex="26"><img src="https://Muanlei.GitHub.io/post-images/1610034487150.png" alt="" loading="lazy"></figure>
 <p><strong>至此，通讯录管理系统完成！</strong></p>
 <h1 id=""></h1>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[联系方式-邮箱1244286672@qq.com]]></title>
+        <id>https://Muanlei.GitHub.io/post/lian-xi-fang-shi/</id>
+        <link href="https://Muanlei.GitHub.io/post/lian-xi-fang-shi/">
+        </link>
+        <updated>2021-01-01T09:31:47.000Z</updated>
+        <content type="html"><![CDATA[<p>.</p>
 ]]></content>
     </entry>
 </feed>
