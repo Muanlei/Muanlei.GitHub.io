@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Muanlei.GitHub.io</id>
     <title>最肯忘却古人诗/最不屑一顾是相思</title>
-    <updated>2021-01-10T06:13:10.072Z</updated>
+    <updated>2021-01-15T10:55:01.521Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Muanlei.GitHub.io"/>
     <link rel="self" href="https://Muanlei.GitHub.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://Muanlei.GitHub.io/images/avatar.png</logo>
     <icon>https://Muanlei.GitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 最肯忘却古人诗/最不屑一顾是相思</rights>
+    <entry>
+        <title type="html"><![CDATA[随机注记（方便理解）]]></title>
+        <id>https://Muanlei.GitHub.io/post/sui-ji-zhu-ji-fang-bian-li-jie/</id>
+        <link href="https://Muanlei.GitHub.io/post/sui-ji-zhu-ji-fang-bian-li-jie/">
+        </link>
+        <updated>2021-01-15T10:51:39.000Z</updated>
+        <content type="html"><![CDATA[<p>#1.值传递和地址传递<br>
+##值传递：传入变量的数值，函数不能改变变量的数值；<br>
+###地址传递：传入变量的地址，函数可以根据变量地址，访问变量，自然就能改变变量的值；<br>
+###特别的——数组传递，由于c语言数组和指针的处理方式一样，数组传递就等同于地址传递，函数可以根据地址，访问数组元素，自然就能改变数组元素的值。<br>
+###值传递只是将变量的内容复制一份而已，函数进行操作的其实是另一个变量，只是另一个变量的值和传递的变量值是相同的。而地址传递是直接把变量的地址传递给函数，这时函数是直接对原来的变量进行操作的。所以值会变化。<br>
+####举例说吧：值传递就相当于克隆了一个同样的变量，操作的是克隆出来的那个，原来的变量没有变化，但是地址传递是直接对原来的变量进行操作，没有克隆复制新的变量。也可以这样理解：比如要考试了，你有一份复习题，值传递就相当于别人借你的试卷去复印，然后在复印的那份上面做笔记，而地址传递就是别人直接在你原有的试卷上做笔记，没有复印，所以等你拿回来你会发现自己的试卷会有别人的标记和注释。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[C++从入门到起飞（第二阶段）]]></title>
         <id>https://Muanlei.GitHub.io/post/ccong-ru-men-dao-qi-fei-di-er-jie-duan/</id>

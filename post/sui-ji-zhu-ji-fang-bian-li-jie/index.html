@@ -30,33 +30,9 @@
       
         <div class="animated fadeInLeft" style="animation-delay: 0.4s">
           <p class="my-4 text-gray-600 font-light hidden lg:block">
-            "鬼蜷缩在屋檐想再看一眼人间"
+            文章目录
           </p>
-          <div class="animated fadeInLeft social-container hidden lg:block" style="animation-delay: 0.6s">
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-                <a href="460541135" target="_blank" class="mr-4 text-xl text-gray-400 font-light hover:text-gray-900">
-                  <i class="ri-qq-line"></i>
-                </a>
-              
+          <div class="toc-container hidden lg:block">
             
           </div>
         </div>
@@ -95,23 +71,42 @@
 </div>
 <div class="mask" onclick="closeMenu()">
 </div>
-      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4">
-        <h2 class="text-lg text-gray-700 mb-8">
-          <i class="ri-bookmark-2-line"></i> 标签云
-        </h2>
-        <div class="tags-container">
+      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
+        <h1 class="text-3xl font-bold lg:mt-16">随机注记（方便理解）</h1>
+        <div class="text-sm text-gray-700 lg:my-8">
+          2021-01-15 / 2 min read
+        </div>
+        
+        <div class="post-content yue">
+          <p>#1.值传递和地址传递<br>
+##值传递：传入变量的数值，函数不能改变变量的数值；<br>
+###地址传递：传入变量的地址，函数可以根据变量地址，访问变量，自然就能改变变量的值；<br>
+###特别的——数组传递，由于c语言数组和指针的处理方式一样，数组传递就等同于地址传递，函数可以根据地址，访问数组元素，自然就能改变数组元素的值。<br>
+###值传递只是将变量的内容复制一份而已，函数进行操作的其实是另一个变量，只是另一个变量的值和传递的变量值是相同的。而地址传递是直接把变量的地址传递给函数，这时函数是直接对原来的变量进行操作的。所以值会变化。<br>
+####举例说吧：值传递就相当于克隆了一个同样的变量，操作的是克隆出来的那个，原来的变量没有变化，但是地址传递是直接对原来的变量进行操作，没有克隆复制新的变量。也可以这样理解：比如要考试了，你有一份复习题，值传递就相当于别人借你的试卷去复印，然后在复印的那份上面做笔记，而地址传递就是别人直接在你原有的试卷上做笔记，没有复印，所以等你拿回来你会发现自己的试卷会有别人的标记和注释。</p>
+
+        </div>
+
+        
+
+
+        <div class="flex justify-between py-8">
           
-            <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="https://Muanlei.GitHub.io/tag/qPxV5n0sk/" :style="{ 'animation-delay': `${0 * 0.2}s` }">
-              <span class="flex-auto">C++</span>
-              <span class="flex rounded-full bg-gray-200 px-2 py-1 text-xs ml-1">2</span>
-            </a>
+
           
-            <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="https://Muanlei.GitHub.io/tag/rdarBJh8F/" :style="{ 'animation-delay': `${1 * 0.2}s` }">
-              <span class="flex-auto">联系方式</span>
-              <span class="flex rounded-full bg-gray-200 px-2 py-1 text-xs ml-1">1</span>
-            </a>
+            <div class="next-post">
+              <a href="https://Muanlei.GitHub.io/post/ccong-ru-men-dao-qi-fei-di-er-jie-duan/">
+                <h3 class="post-title">
+                  C++从入门到起飞（第二阶段）
+                  <i class="ri-arrow-right-line"></i>
+                </h3>
+              </a>
+            </div>
           
         </div>
+
+        
+
       </div>
     </div>
 
